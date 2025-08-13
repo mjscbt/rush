@@ -27,7 +27,7 @@ const (
 	boardColor        = "F2EACD"
 	blockedColor      = "D96D60"
 	gridLineColor     = "222222"
-	primaryPieceColor = "CC3333"
+	primaryPieceColor = "FF3333"
 	pieceColor        = "338899"
 	pieceOutlineColor = "222222"
 	labelColor        = "222222"

@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/fogleman/gg"
-	"github.com/fogleman/rush"
+	"github.com/mjscbt/rush"
 )
 
 func main() {

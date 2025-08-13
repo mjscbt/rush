@@ -27,7 +27,7 @@ const (
 	boardColor        = "F2EACD"
 	blockedColor      = "D96D60"
 	gridLineColor     = "222222"
-	primaryPieceColor = "FF3333"
+	primaryPieceColor = "CC3333"
 	pieceColor        = "338899"
 	pieceOutlineColor = "222222"
 	labelColor        = "222222"
@@ -122,6 +122,7 @@ func renderBoard(board *Board) image.Image {
 		ph := dy*S + S - m*2
 		dc.DrawRoundedRectangle(px+0.5, py+0.5, pw, ph, S/8.0)
 		if i == 0 {
+			fmt.Print(piece.Size)
 			dc.SetHexColor(primaryPieceColor)
 		} else {
 			dc.SetHexColor(pieceColor)
